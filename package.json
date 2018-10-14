@@ -1,0 +1,20 @@
+{
+  "name": "gate-opener",
+  "version": "1.0.0",
+  "description": "A simple web application for opening gates with OAuth2 authorization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tomasz Nocoń <thom.nocon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^17.6.0",
+    "inert": "^5.1.0",
+    "keycloak-hapi": "^1.0.3",
+    "nconf": "^0.10.0",
+    "nconf-yaml": "^1.0.2",
+    "yar": "^9.0.2",
+    "onoff": "^3.2.2"
+  }
+}
